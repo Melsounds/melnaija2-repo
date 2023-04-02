@@ -1,0 +1,121 @@
+@media screen and (min-width:300px) and (max-width:600px){
+    .ad-container{
+        width: 100%;
+        padding: 20px 0;
+        background-color: #000;
+        height: auto;
+    }
+    .ad{
+        width: 93%;
+    }
+    nav h1{
+        margin-left: 2%;
+        font-size: 150%;
+    }
+    nav ul{
+        display: none;
+    }
+    
+    nav .fa-solid{
+        display: block;
+    }
+    main{
+        padding: 0 3%;
+    }
+    .blogs{
+        padding:  0; 
+        width: 99.6%;
+        padding: 0;
+        border: none;
+    }
+    
+    .categories{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .local-news{
+        grid-template-columns: 1fr;
+        height: auto; 
+        border: none  
+    }
+    .ln{
+        height: 150px;
+        width: 100%;
+        background-color: #000;
+        opacity: 100%;
+        margin-top: 0px;
+        border: none;
+    }
+    .ln .text{
+        margin-top: 0;
+    }
+    .text4{
+        margin-top: 0px;
+        z-index: 999;
+    }
+    .text4 p{
+        color: red;
+    }
+    
+    .latest-container{
+        width: 100%;
+        padding: 0;
+    } 
+    .latest{
+        width: 92%;
+        padding: 10px 2%;
+        margin-left: 2%;
+    }
+    a .subtitle{
+        font-size: 100%;
+    }
+    .movie-info a{
+        margin-left: 40%;
+    }
+    .next{    
+        margin-left: 2%;
+        width: 87%;
+    }
+    .social-media{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .left-socials-inner{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0.5px;
+    }
+    .left-socials-inner img{
+        width: 30%;
+    }
+    img.hawker{
+        width: 18%;
+    }
+    .right-socials p{
+        margin-top: -100px;
+        color: white;
+        background-color: #000;
+        opacity: 80%;
+        padding: 20px;
+        font-size: 152%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .links{
+        align-items: center;
+        justify-content: center;
+    } 
+    .social-links{
+        align-items: center;
+        justify-content: center;
+    }
+    .social-links p{
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-nav ul p{
+        text-decoration: underline;
+    }
+}
