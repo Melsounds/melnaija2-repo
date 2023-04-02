@@ -1,0 +1,163 @@
+@media screen and (min-width:600.1px) and (max-width:900px){
+    .ad-container{
+        width: 100%;
+        padding: 20px 0;
+        height: auto;
+    }
+    
+    .ad{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .fa-solid{
+        display: block;
+    }
+    .categories{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .local-news{
+        grid-template-columns: 1fr;
+    }
+    .intl-news{
+        display: none;
+    }
+    .ln{
+        height: 150px;
+        margin-top: 0px;
+    }
+    .ln .text{
+        margin-top: -80px;
+    }
+    
+    .text4{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .ln .text4 p{
+        color: red;
+    }
+    .latest-container{
+        grid-template-columns: 1fr;
+        width: 93.5%;
+        margin-top: 20px;
+        margin-left: 3%;
+        padding: 0;
+    } 
+    .left{
+        width: 100%;
+        padding: 0;
+    }
+    .latest{
+        width: 92%;
+        margin-left: 2%;
+    }
+    a .subtitle{
+        font-size: 100%;    
+    }
+
+    .movie-info a{
+        width: 100%;
+    }
+    .next{    
+        margin-left: 2%;
+        width: 95%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .left-ad-cont{
+        width: 80%;
+        margin-left: 12%;
+        height: auto;
+    }
+    .left-ad{
+        width: 100%;
+
+    }
+    .social-media{
+        width: 100%;
+        padding: 0;
+    }
+    .social-media-content{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    .left-socials{
+        width: 90%;
+    }
+    .left-socials-inner{
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 5px;
+    }
+    img.hawker{
+        width: 20%;
+    }
+    
+    .right-socials{
+    width: 100%;
+    }
+    .right-media{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .right{
+        display: none;
+    }
+    .footer-nav{
+        display: block;
+        grid-template-columns:  1fr;
+        padding: 50px 100px;
+    }
+    .logo h1{
+        font-size: 45px;
+    }
+    .footer-nav ul{
+        display: block;
+        text-align-last: center;
+    }
+    .footer-nav ul p{
+        font-size: 24px;
+        padding: 40px 20px;
+
+    }
+    .links  ul p{
+        margin-left: 0;
+        font-size: 300%;
+    }
+    .social-links ul{
+        margin: 0;
+    }
+    .resources ul{
+        margin-left: 0px;
+    }
+    .resources ul p{
+        font-size: 300%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo h1{
+        font-size: 600%;
+    }
+    .links{
+        align-items: center;
+        justify-content: center;
+    } 
+    .social-links{
+        align-items: center;
+        justify-content: center;
+    }
+    .social-links ul p{
+        width: 100%;
+        margin-left: 0;
+        font-size: 300%;
+    }
+    .footer-nav ul p{
+        text-decoration: underline;
+    }
+}
