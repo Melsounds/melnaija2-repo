@@ -1,0 +1,57 @@
+@media  screen and (min-width:900.1px) and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+    .ad-container{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .ad{
+        width: 100%;
+    }
+    
+    nav li{
+        margin-left: 0;
+    }
+    .right{
+        margin-left: 2%;
+        width: 70%;
+    }
+    .trending-music{
+        margin-left: 10%;
+    }
+    .trending-music .img-title{
+        width: 80%;
+    }
+    .trending-videos .img-title{
+        width: 80%;
+    }
+    .footer-nav{
+        padding: 0;
+    }
+    .footer-nav .logo{
+        margin-left: 0%;
+    }
+    .links{
+        margin-top: 20px;
+    }
+    .links  ul p{
+        font-size: 200%;
+    }
+    .resources{
+        margin-top: 20px;
+    }
+    .resources ul p{
+        font-size: 200%;
+    }
+    .social-links{
+        margin-top: 20px;
+    }
+    .social-links ul p{
+        font-size: 180%;
+    }
+    .social-links{
+        margin-top: 20px;
+    }
+
+}
